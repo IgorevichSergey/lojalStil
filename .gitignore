@@ -1,1 +1,4 @@
 /.idea
+/production
+/bower_components
+/node_modules

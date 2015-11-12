@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'iconFont';
+    src: url('../fonts/iconFont.ttf?epv12z') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'iconFont';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebookOne:before {
+    content: "\e905";
+}
+.icon-linkedOne:before {
+    content: "\e906";
+}
+.icon-pinterestOne:before {
+    content: "\e907";
+}
+.icon-facebookSquare:before {
+    content: "\e900";
+}
+.icon-facebookRound:before {
+    content: "\e901";
+}
+.icon-linkedinSquare:before {
+    content: "\e902";
+}
+.icon-rightarrow:before {
+    content: "\e903";
+}
+.icon-pinterestRound:before {
+    content: "\e904";
+}
+.icon-facebookOne:before {
+    content: "\ea8c";
+}
+.icon-linkedinOne:before {
+    content: "\eac9";
+}
+
+
+body{
+    position: relative;
+}
+.float-clear{
+    clear:both;
+}
+.lojal-border-block{
+    margin-bottom:20px;
+    border:2px solid black;
+}
+/*--- HEADER ---*/
+.lojal-still-header .header-black-line,
+.lojal-still-header .header-black-line a{
+    background-color: black;
+    font-size:22px;
+    color:white;
+}
+.lojal-still-header a{
+    display: inline-block;
+    text-decoration: none;
+    padding:10px 20px;
+}
+.language-buttons-block,
+.facebook-block{
+    padding:10px 20px;
+}
+.language-buttons-block{
+    float: left;
+}
+.language-buttons-block .language-buttons{
+    cursor:pointer;
+}
+.language-buttons-block .language-buttons:hover{
+    background-color: black;
+    color:white;
+}
+.facebook-block{
+    float:right;
+}
+.lojal-still-header .folow-us-block{
+    padding:10px 20px;
+    float:right;
+    white-space: nowrap;
+}
+.lojal-still-header .folow-us-block a{
+    padding:0 5px;
+    font-size:24px;
+}
+.lojal-still-header .facebook-item{
+    padding:2px 3px 1px 2px;
+    border-radius:1px;
+    background-color: #4769B8;
+    color:white;
+}
+.lojal-still-header .facebook-folowers{
+    color:white;
+    background-color: #AEAEAE;
+    border:1px solid #AEAEAE;
+    border-radius: 2px;
+    padding:1px 5px;
+    margin-left:10px;
+    position: relative;
+}
+.lojal-still-header .facebook-folowers::after {
+    content: '';
+    position: absolute;
+    left: -14px;
+    bottom: 6px;
+    border: 5px solid transparent;
+    border-right: 8px solid #AEAEAE;
+}
+/*--- FOOTER --- */
+.lojal-still-footer {
+
+}
+.lojal-still-footer .footer-black-line{
+    background-color: black;
+    color:white;
+    padding:10px 20px;
+}
+.lojal-still-footer .footer-left-side{
+    width:50%;
+    float:left;
+    text-align: left;
+}
+.lojal-still-footer .footer-right-side{
+    width:50%;
+    float:right;
+    text-align: right;
+}
+.lojal-still-footer .top-footer-item{
+    padding:10px;
+
+}
+.lojal-still-footer .top-footer-item .left-block{
+    background-color: #E3E3E3;
+    padding:20px 30px;
+    text-align: center;
+}
+.lojal-still-footer .top-footer-item .left-block h4{
+
+    font-weight:bolder;
+    color:#0D0D0D;
+    padding-bottom:30px;
+    margin:0;
+}
+.lojal-still-footer .top-footer-item .left-block p{
+    text-align: left;
+    font-size:16px;
+    color:#0D0D0D;
+    padding-bottom:20px;
+}
+.lojal-still-footer .top-footer-item .left-block .email-example{
+    text-align: left;
+    font-size:16px;
+    padding:10px;
+    background-color: #B4B4B4;
+    color:#0B0B0B;
+}
+.lojal-still-footer .top-footer-item .left-block .subscribe-button{
+    border:1px solid #B4B4B4;
+    padding:5px 10px;
+    font-size:20px;
+    margin-top:10px;
+    font-weight:bolder;
+    color:white;
+    background-color: #B4B4B4;
+}
+@media screen and (max-width: 768px){
+    .lojal-still-header .folow-us-block{
+        float:none;
+    }
+    .lojal-still-footer .footer-right-side,
+    .lojal-still-footer .footer-left-side{
+        width:100%;
+        float:none;
+        text-align: center;
+    }
+}
