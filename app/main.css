@@ -140,36 +140,36 @@ body{
     float:right;
     text-align: right;
 }
-.lojal-still-footer .top-footer-item{
+.lojal-still-footer .left-footer-item{
     padding:10px;
 
 }
-.lojal-still-footer .top-footer-item .left-block{
+.lojal-still-footer .left-footer-item .left-block{
     background-color: #E3E3E3;
     padding:20px 30px;
     text-align: center;
 }
-.lojal-still-footer .top-footer-item .left-block h4{
+.lojal-still-footer .left-footer-item .left-block h4{
 
     font-weight:bolder;
     color:#0D0D0D;
     padding-bottom:30px;
     margin:0;
 }
-.lojal-still-footer .top-footer-item .left-block p{
+.lojal-still-footer .left-footer-item .left-block p{
     text-align: left;
     font-size:16px;
     color:#0D0D0D;
     padding-bottom:20px;
 }
-.lojal-still-footer .top-footer-item .left-block .email-example{
+.lojal-still-footer .left-footer-item .left-block .email-example{
     text-align: left;
     font-size:16px;
     padding:10px;
     background-color: #B4B4B4;
     color:#0B0B0B;
 }
-.lojal-still-footer .top-footer-item .left-block .subscribe-button{
+.lojal-still-footer .left-footer-item .left-block .subscribe-button{
     border:1px solid #B4B4B4;
     padding:5px 10px;
     font-size:20px;
@@ -177,6 +177,26 @@ body{
     font-weight:bolder;
     color:white;
     background-color: #B4B4B4;
+}
+.lojal-still-footer .middle-footer-item{
+    padding:20px 40px;
+}
+.lojal-still-footer .middle-footer-item .middle-block{
+    text-align: center;
+}
+.lojal-still-footer .middle-footer-item .middle-block h4{
+    font-weight: 900;
+}
+.lojal-still-footer .middle-footer-item .footer-folow-us{
+    font-weight: bolder;
+    font-size: 15px;
+}
+.lojal-still-footer .middle-footer-item .footer-folow-us .footer-folow-us-icons{
+    margin-top:20px;
+    font-size:20px;
+}
+.lojal-still-footer  .right-footer-item{
+    padding:20px 30px;
 }
 @media screen and (max-width: 768px){
     .lojal-still-header .folow-us-block{
