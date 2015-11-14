@@ -1,0 +1,94 @@
+.desktop-menu .menu{
+    padding:0;
+    margin:10px 0;
+    min-width:250px;
+    max-width:100%;
+}
+.desktop-menu .menu ul{
+    display:table-row;
+}
+.desktop-menu .menu ul li{
+    display:table-cell;
+    width:auto;
+    height:auto;
+    vertical-align:bottom;
+    color:black;
+    padding:5px 0;
+}
+
+.desktop-menu .menu ul li a{
+    font-size:10px;
+    color:black;
+    text-decoration:none;
+    height:auto;
+    display:table-cell;
+    width:1000px;
+    vertical-align:middle;
+    text-align:center;
+    padding:0 5px;
+    white-space: nowrap;
+    border-right:1px solid black;
+}
+.desktop-menu .menu ul li .small-menu-element{
+    width: 500px;
+    padding: 0 10px;
+}
+.desktop-menu .menu ul li:first-child a{
+    text-align: left;
+    padding-left:0;
+}
+.desktop-menu .menu ul li:last-child a{
+    text-align: right;
+    border-right:none;
+    padding-right:0;
+    padding-left:10px;
+}
+.toggle-menu-btn{
+    cursor: pointer;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color: #E3E3E3;
+    text-align: left;
+}
+.toggle-menu-btn:hover{
+    background-color: #aeaeae;
+}
+.mobile-menu .toggle-menu-btn{
+    margin: 0;
+}
+.toggle-menu-btn .caret-block{
+    float:right;
+}
+.mobile-menu{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    margin-top:-500%;
+    transition-property: margin-top;
+    transition-duration: 0.5s;
+    -webkit-overflow-scrolling: touch;
+}
+.show-mobile-menu{
+    transition-property: margin-top;
+    transition-duration: 0.5s;
+    margin-top:0;
+}
+.mobile-menu .mobile-menu-element{
+    background-color: #E3E3E3;
+}
+.mobile-menu a{
+    color:black;
+}
+.mobile-menu .menu-hide-btn{
+ text-align: left;
+}
+.mobile-menu .mobile-menu-element:hover{
+    cursor: pointer;
+    background-color: #aeaeae;
+}
+.mobile-menu .mobile-menu-element:hover a{
+    color:white;
+}

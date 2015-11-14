@@ -12,6 +12,9 @@ var config = {
         './app/contactPage/*.html',
         './app/productsPage/*.html'
     ],
+    SCRIPTS:[
+        './app/*.js'
+    ],
     BOWER_SCRIPTS: [
         "./bower_components/jquery/dist/jquery.min.js",
         "./bower_components/bootstrap/dist/js/bootstrap.min.js"
@@ -42,6 +45,11 @@ gulp.task('copy_html', function(){
         .pipe(gulp.dest('./production'))
         .pipe(connect.reload())
 });
+gulp.task('scripts_min',function () {
+    gulp.src(config.SCRIPTS)
+        .pipe(concat('main.js'))
+        .pipe(gulp.dest('./production/js'))
+});
 gulp.task('bower_scripts_min',function () {
     gulp.src(config.BOWER_SCRIPTS)
         .pipe(concat('bower-components.min.js'))
@@ -55,7 +63,7 @@ gulp.task('copy_other', function () {
 });
 
 gulp.task('build', function(){
-    runSequence('bower_css_min', 'css_min', 'bower_scripts_min', 'copy_other', 'copy_html',function() {
+    runSequence('bower_css_min', 'css_min', 'bower_scripts_min', 'scripts_min', 'copy_other', 'copy_html',function() {
     });
 
 });
