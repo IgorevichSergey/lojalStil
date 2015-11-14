@@ -196,7 +196,7 @@ body{
     font-size:20px;
 }
 .lojal-still-footer  .right-footer-item{
-    padding:20px 30px;
+    padding:20px 0;
 }
 @media screen and (max-width: 768px){
     .lojal-still-header .folow-us-block{
@@ -207,5 +207,13 @@ body{
         width:100%;
         float:none;
         text-align: center;
+    }
+    .lojal-still-footer .right-block{
+        padding:5px;
+    }
+    .lojal-still-footer .right-footer-item{
+        width:300px;
+        margin: 0 auto;
+
     }
 }

@@ -1,0 +1,83 @@
+.contact-page{
+    margin-bottom:20px;
+}
+.contact-page .no-padding-class{
+    padding-left:0;
+    padding-right:0;
+}
+.contact-page .form-block form{
+    background-color: #E3E3E3;
+}
+
+.contact-page .form-block .contact-info-block{
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:30px;
+}
+.contact-page .form-block .contact-info-block .contact-info-description{
+    font-weight: 900;
+    font-size: 16px;
+    padding: 2px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.contact-page .form-block .contact-info-block p{
+    font-size:12px;
+}
+.contact-page .form-block .folow-us-block{
+    text-align: center;
+    margin-top:50px;
+}
+.contact-page .form-block .folow-us-block .folow-us-description{
+    font-size:20px;
+    font-weight: 900;
+}
+.contact-page .form-block .folow-us-block .folow-us-icons{
+    font-size:36px;
+}
+.contact-page .form-block .contact-us-form{
+
+}
+.contact-page .form-block .contact-us-form .contact-us-form-description{
+    text-align: center;
+    font-size:18px;
+    font-weight:900;
+    padding:10px;
+
+}
+.contact-page .form-block .contact-us-form .row{
+    padding:10px;
+}
+.contact-page .form-block .contact-us-form label{
+    display: block;
+}
+.contact-page .form-block .contact-us-form input,
+.contact-page .form-block .contact-us-form textarea{
+    width:100%;
+    border:none;
+    padding:5px;
+    resize:none;
+}
+.contact-page .form-block .contact-us-form input[type=submit]{
+    width:auto;
+    padding:5px 15px;
+    color:white;
+    margin:10px;
+    font-weight:800;
+    background-color: #858585;
+}
+#map{
+    max-width:100%;
+    min-height:300px;
+    padding-bottom:20px;
+    background-color: #b9bbba;
+    margin-top:10px;
+}
+@media screen and (max-width: 768px){
+    .contact-page .form-block{
+        margin-right:15px;
+        margin-left:15px;
+    }
+}
